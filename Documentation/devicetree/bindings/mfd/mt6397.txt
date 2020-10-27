@@ -25,6 +25,7 @@ compatible:
 	"mediatek,mt6358" for PMIC MT6358
 	"mediatek,mt6359" for PMIC MT6359
 	"mediatek,mt6366", "mediatek,mt6358" for PMIC MT6366
+	"mediatek,mt6392" for PMIC MT6392
 	"mediatek,mt6397" for PMIC MT6397
 
 Optional subnodes:
@@ -60,6 +61,7 @@ Optional subnodes:
 	Required properties: Should be one of the following
 		- compatible: "mediatek,mt6323-keys"
 		- compatible: "mediatek,mt6331-keys"
+		- compatible: "mediatek,mt6392-keys"
 		- compatible: "mediatek,mt6397-keys"
 	see ../input/mtk-pmic-keys.txt
 
